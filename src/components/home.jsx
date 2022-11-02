@@ -4,6 +4,7 @@ import Footer from "./footer";
 import Header from "./header";
 import MainSection from "./main-section";
 import Navigation from "./navigation";
+import CreateNewStory from "./new-story";
 
 function Home() {
   return (
@@ -11,7 +12,7 @@ function Home() {
       <Header />
       <Navigation />
       <Banner />
-      <MainSection />
+      <CreateNewStory />
       <Footer />
     </>
   );
